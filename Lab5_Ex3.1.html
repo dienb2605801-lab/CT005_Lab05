@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lợi ích của công nghệ số trong học tập</title>
+    <style>
+        :root {
+            font-family: "Segoe UI", Arial, sans-serif;
+            color: #17324d;
+            background: #f2f7fc;
+            font-synthesis: none;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 48px 20px;
+        }
+
+        .container {
+            width: min(100%, 960px);
+            margin: 0 auto;
+        }
+
+        header {
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+
+        .eyebrow {
+            margin: 0 0 10px;
+            color: #1671c5;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 0;
+            color: #124a7b;
+            font-size: clamp(2rem, 5vw, 3rem);
+            line-height: 1.15;
+        }
+
+        .description {
+            max-width: 680px;
+            margin: 16px auto 0;
+            color: #58718a;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .content-card {
+            margin-top: 22px;
+            padding: clamp(20px, 4vw, 32px);
+            overflow: hidden;
+            border: 1px solid #e0eaf3;
+            border-radius: 18px;
+            background: #fff;
+            box-shadow: 0 12px 32px rgb(29 75 117 / 8%);
+        }
+
+        h2 {
+            margin: 0 0 16px;
+            color: #174a78;
+            font-size: 1.3rem;
+        }
+
+        .infographic {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .video-frame {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #eaf2f9;
+            aspect-ratio: 16 / 9;
+        }
+
+        .video-frame iframe {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .copyright {
+            margin-top: 22px;
+            padding: 18px;
+            border-radius: 12px;
+            background: #eaf3fb;
+            color: #58718a;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .copyright strong {
+            color: #174a78;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 32px 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <p class="eyebrow">Học tập trong thời đại số</p>
+            <h1>Lợi ích của công nghệ số trong học tập</h1>
+            <p class="description">
+                Công nghệ số giúp người học tiếp cận nguồn tài liệu phong phú,
+                học tập linh hoạt, tăng khả năng tương tác và hỗ trợ hiệu quả
+                trong quá trình học tập.
+            </p>
+        </header>
+
+        <section class="content-card" aria-labelledby="infographic-title">
+            <h2 id="infographic-title">Infographic</h2>
+            <img
+                src="Lab05_Ex2.1.png"
+                alt="Infographic về lợi ích của công nghệ số trong học tập"
+                class="infographic"
+            >
+        </section>
+
+        <section class="content-card" aria-labelledby="video-title">
+            <h2 id="video-title">Video giới thiệu</h2>
+            <div class="video-frame">
+                <iframe
+                    src="https://www.youtube.com/embed/WoDV7efYC4A?playsinline=1"
+                    title="Video YouTube: Lợi ích của công nghệ số trong học tập"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </section>
+
+        <footer class="copyright">
+            <strong>Ghi chú bản quyền:</strong>
+            Infographic và video thuộc quyền sở hữu của các chủ sở hữu tương ứng.
+            Vui lòng ghi nguồn và tuân thủ điều khoản sử dụng khi chia sẻ hoặc sử dụng lại.
+        </footer>
+    </main>
+</body>
+</html>
